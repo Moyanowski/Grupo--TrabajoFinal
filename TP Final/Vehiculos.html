@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Libre</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html"><div class="logo"><img src="Iconos/logo.png" alt="logo de la marca"></div></a>
+        <nav>
+                <div id="search-container">
+                <div id="search-input-container">
+                    <input type="text" id="search-input" placeholder="Buscar productos, marcas y más">
+                    <span class="search-icon" onclick="searchProducts()"><i class="fas fa-search"></i></span>
+                </div>
+                <button id="search-button" onclick="searchProducts()"></button>
+            </div>
+    <ul class="nav-links">        
+  <li>
+    <a href="#">Categorias</a>
+        <ul class="sub-menu">
+        <li><a href="Vehiculos.html">Vehiculos</a></li>
+        <li><a href="Inmuebles.html">Inmuebles</a></li>
+        <li><a href="Supermercado.html">Supermercado</a></li>
+        <li><a href="Tecnologia.html">Tecnologia</a></li>
+        <li><a href="Hogar y Muebles.html">Hogar y Muebles</a></li>
+        <li><a href="Electrodomesticos.html">Electrodomesticos</a></li>
+        <li><a href="Herramientas.html">Herramientas</a></li>
+        <li><a href="Construccion.html">Construcción</a>
+        <li><a href="Deportes y Fitness.html">Deportes y Fitness</a></li>
+        <li><a href="Juegos y Juguetes.html">Juegos y Juguetes</a></li>
+    </ul>
+
+  </li>
+                <li><a href="https://www.mercadolibre.com.ar/ofertas#nav-header">Ofertas</a></li>
+                <li><a href="#">Historial</a></li>
+                <li><a href="https://www.mercadolibre.com/jms/mla/lgz/msl/login/H4sIAAAAAAAEAzWOzQ6CMAzH36Vnwu4cfQ1jljoKNnaMrNVJCO9uMfHYX_9fO0iZeYm2rQQDKIlAB6ugTaXmyKPDfCJlo_-JpwQrZjKqCsN-hsw0XshNZ8yEouQifNkjTlKas1-PM9ZIH_ctKLHR_c3k35-hg7m48GG26hBCa63PVBOORfheqU8l91iDbhyS9wRhNTg6b1OLVjE9YbD6og5GSsIL-fjr7fgCuQDYJ-MAAAA/notregistered" target="_blank">Vender</a></li>
+                <li><a href="https://www.mercadolibre.com.ar/ayuda#nav-header" target="_blank">Ayuda</a></li>
+    <ul class="nav-links-right">
+            <li><a href="https://www.mercadolibre.com.ar/hub/registration/landing#nav-header" target="_blank">Creá tu Cuenta</a></li>
+            <li><a href="https://www.mercadolibre.com/jms/mla/lgz/msl/login/H4sIAAAAAAAEAzWNTQ6EIAyF78La6J7lXIRULEqmCCl1cGK8-5RJXL6f773LUF7j7uRb0FiDZ6Hoo5jBFAIJmZOLiwaJ1KpR8JHQK8CQUJCrsVcfWnF5oUJ9KgBV1BIcsrlAuan3_1IvVoencjuQazh_Ivb0IdasYhMp1U5Ta21MyB6WTHFmHH1OI_CUA7JANfegXBUnDP5trPCB9w9CnQmQ1QAAAA/user" target="_blank">Ingresá</a></li> 
+            <li><a href="https://www.mercadolibre.com/jms/mla/lgz/msl/login/H4sIAAAAAAAEAzWNSw6DMAxE75I1gj3LXiQywYBVh0S2KaCKu9dUYjlvft_AZaY12lkx9AGPypTIQhMqg01FcqTRjcyOlAwfCXcEBDIaiob-ew_NOL7QS_fUBKzoIdhsiROX3dn_yxlpxMN7K3DccfgQ3u7TmIuLxaxq33X5hJTKtlqbURKMhWkQbFPJLYi7sW6SFlDUjkktXI3vqEUTSO_Qm2x4_QAZcyDg5QAAAA/user" target="_blank">Mis compras</a></li>
+        </ul>    
+        </nav>
+    </header>
+<div class="Titulo"><h2>AUTOS Y CAMIONETAS PUBLICADOS HOY </h2></div>
+
+<section class="ui-search-results__content">
+
+    <div class="ui-search-result__wrapper">
+      <div class="ui-search-result__image">
+        <img src="Imagenes/Vehiculos/img1.png"> 
+      </div>
+  
+      <div class="ui-search-result__content">
+        <div class="ui-search-item__group__element">
+          <h2 class="ui-search-item__title">Audi A3 1.4 Tfsi 150 Cv</h2>
+          <div class="ui-search-item__price">U$S46.500</div>
+        </div>
+          <div class="ui-search-item__location">Capital Federal</div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="ui-search-result__wrapper">
+        <div class="ui-search-result__image">
+          <img src="Imagenes/Vehiculos/img2.png"> 
+        </div>
+    
+        <div class="ui-search-result__content">
+          <div class="ui-search-item__group__element">
+            <h2 class="ui-search-item__title">Chevrolet Tracker 1.2 Turbo Premier At</h2>
+            <div class="ui-search-item__price">$22.999.900</div>
+          </div>
+            <div class="ui-search-item__location">Capital Federal</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ui-search-result__wrapper">
+        <div class="ui-search-result__image">
+          <img src="Imagenes/Vehiculos/img3.png"> 
+        </div>
+    
+        <div class="ui-search-result__content">
+          <div class="ui-search-item__group__element">
+            <h2 class="ui-search-item__title">Chevrolet Tracker 1.2 Turbo Ltz At</h2>
+            <div class="ui-search-item__price">19.999.900</div>
+          </div>
+            <div class="ui-search-item__location">Capital Federal</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ui-search-result__wrapper">
+        <div class="ui-search-result__image">
+          <img src="Imagenes/Vehiculos/img4.png"> 
+        </div>
+    
+        <div class="ui-search-result__content">
+          <div class="ui-search-item__group__element">
+            <h2 class="ui-search-item__title">Chevrolet Tracker 1.2 Turbo At argentina</h2>
+            <div class="ui-search-item__price">$15.999.900</div>
+          </div>
+            <div class="ui-search-item__location">Capital Federal</div>
+          </div>
+        </div>
+
+        <div class="ui-search-result__wrapper">
+            <div class="ui-search-result__image">
+              <img src="Imagenes/Vehiculos/img5.png"> 
+            </div>
+        
+            <div class="ui-search-result__content">
+              <div class="ui-search-item__group__element">
+                <h2 class="ui-search-item__title">Chevrolet Tracker 1.2 Premier Turbo At  </h2>
+                <div class="ui-search-item__price">$21.999.900</div>
+              </div>
+                <div class="ui-search-item__location">Capital Federal</div>
+              </div>
+            </div>
+        </div>
+</section>
+
+<div class="Titulo"><h2>Volkswagen</h2></div>
+
+<section class="ui-search-results__content">
+
+    <div class="ui-search-result__wrapper">
+      <div class="ui-search-result__image">
+        <img src="Imagenes/Vehiculos/Volkswagen1.png"> 
+      </div>
+  
+      <div class="ui-search-result__content">
+        <div class="ui-search-item__group__element">
+          <h2 class="ui-search-item__title">Volkswagen Tiguan Allspace 1.4 Tsi Trendline 150cv Dsg</h2>
+          <div class="ui-search-item__price">U$S 23.000</div>
+        </div>
+          <div class="ui-search-item__location">La Plata</div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="ui-search-result__wrapper">
+        <div class="ui-search-result__image">
+          <img src="Imagenes/Vehiculos/Volkswagen2.png"> 
+        </div>
+    
+        <div class="ui-search-result__content">
+          <div class="ui-search-item__group__element">
+            <h2 class="ui-search-item__title">Volkswagen Nivus 1.0 Tsi Tiptronic Comfortline</h2>
+            <div class="ui-search-item__price">U$S 19.000</div>
+          </div>
+            <div class="ui-search-item__location">Capital Federal</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ui-search-result__wrapper">
+        <div class="ui-search-result__image">
+          <img src="Imagenes/Vehiculos/Volkswagen3.png"> 
+        </div>
+    
+        <div class="ui-search-result__content">
+          <div class="ui-search-item__group__element">
+            <h2 class="ui-search-item__title">Volkswagen Golf 2.0 Gti Tsi</h2>
+            <div class="ui-search-item__price">U$S 31.900</div>
+          </div>
+            <div class="ui-search-item__location">Capital Federal</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ui-search-result__wrapper">
+        <div class="ui-search-result__image">
+          <img src="Imagenes/Vehiculos/Volkswagen4.png"> 
+        </div>
+    
+        <div class="ui-search-result__content">
+          <div class="ui-search-item__group__element">
+            <h2 class="ui-search-item__title">Volkswagen Amarok 3.0 V6 Extreme</h2>
+            <div class="ui-search-item__price">$25.999.900</div>
+          </div>
+            <div class="ui-search-item__location">Berazategui Zona Sur</div>
+          </div>
+        </div>
+
+        <div class="ui-search-result__wrapper">
+            <div class="ui-search-result__image">
+              <img src="Imagenes/Vehiculos/Volkswagen5.png"> 
+            </div>
+        
+            <div class="ui-search-result__content">
+              <div class="ui-search-item__group__element">
+                <h2 class="ui-search-item__title">Volkswagen Amarok 3.0 V6 Cd Comfortline </h2>
+                <div class="ui-search-item__price">$21.561.900</div>
+              </div>
+                <div class="ui-search-item__location">Lanús</div>
+              </div>
+            </div>
+        </div>
+</section>
+
+<div class="Titulo"><h2>Puegeot</h2></div>
+
+<section class="ui-search-results__content">
+
+    <div class="ui-search-result__wrapper">
+      <div class="ui-search-result__image">
+        <img src="Imagenes/Vehiculos/Peugeot1.png"> 
+      </div>
+      
+      <div class="ui-search-result__content">
+        <div class="ui-search-item__group__element">
+          <h2 class="ui-search-item__title">Peugeot 3008 1.6 Gt-line Thp Pack Tiptronic</h2>
+          <div class="ui-search-item__price">$39.600.000</div>
+        </div>
+          <div class="ui-search-item__location">San Isidro</div>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="ui-search-result__wrapper">
+        <div class="ui-search-result__image">
+          <img src="Imagenes/Vehiculos/Peugeot2.png"> 
+        </div>
+    
+        <div class="ui-search-result__content">
+          <div class="ui-search-item__group__element">
+            <h2 class="ui-search-item__title">Peugeot 208 1.6l Allure Pack</h2>
+            <div class="ui-search-item__price">$ 12.600.000</div>
+          </div>
+            <div class="ui-search-item__location">San Fernando</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ui-search-result__wrapper">
+        <div class="ui-search-result__image">
+          <img src="Imagenes/Vehiculos/Peugeot3.png"> 
+        </div>
+    
+        <div class="ui-search-result__content">
+          <div class="ui-search-item__group__element">
+            <h2 class="ui-search-item__title">Peugeot 3008 1.6 Gt-line Thp Pack Tiptronic</h2>
+            <div class="ui-search-item__price">U$S 31.900</div>
+          </div>
+            <div class="ui-search-item__location">San Isidro</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ui-search-result__wrapper">
+        <div class="ui-search-result__image">
+          <img src="Imagenes/Vehiculos/Peugeot4.png"> 
+        </div>
+    
+        <div class="ui-search-result__content">
+          <div class="ui-search-item__group__element">
+            <h2 class="ui-search-item__title">Peugeot Partner 1.6 Furgon Confort</h2>
+            <div class="ui-search-item__price">$10.700.000</div>
+          </div>
+            <div class="ui-search-item__location">Berazategui Zona Sur</div>
+          </div>
+        </div>
+
+        <div class="ui-search-result__wrapper">
+            <div class="ui-search-result__image">
+              <img src="Imagenes/Vehiculos/Peugeot5.png"> 
+            </div>
+        
+            <div class="ui-search-result__content">
+              <div class="ui-search-item__group__element">
+                <h2 class="ui-search-item__title">Peugeot 5008 2.0 Allure Plus Hdi Tiptronic</h2>
+                <div class="ui-search-item__price">$41.561.900</div>
+              </div>
+                <div class="ui-search-item__location">Palermo</div>
+              </div>
+            </div>
+        </div>
+</section>

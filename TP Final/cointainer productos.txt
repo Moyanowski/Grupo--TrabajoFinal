@@ -1,0 +1,18 @@
+<section class="ui-search-results__content">
+
+    <div class="ui-search-result__wrapper" href="https://www.mercadolibre.com.ar/parlante-torre-noblex-mnt1050p-tower-system-bluetooth-luces-color-negro/p/MLA15832436?pdp_filters=deal%3AMLA779357-1#polycard_client=homes-korribanSearchPromotions&searchVariation=MLA15832436&position=1&search_layout=grid&type=product&tracking_id=fb22e5dc-8204-47a6-a955-9abc6a08fa6a">
+      <div class="ui-search-result__image">
+        <img src=""> 
+      </div>
+  
+      <div class="ui-search-result__content">
+        <div class="ui-search-item__group__element">
+          <h2 class="ui-search-item__title"></h2>
+          <div class="ui-search-item__price">$</div>
+        </div>
+          <div class="ui-search-item__location">Capital Federal</div>
+        </div>
+      </div>
+    </div>
+
+</section>
